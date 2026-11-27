@@ -1,0 +1,14 @@
+# Netlify configuration for setrightflatwork.com
+# The website files are pre-built in the "dist" folder, so Netlify only needs
+# to publish that folder. No build command is required.
+
+[build]
+  publish = "dist"
+  command = ""
+
+# Send www.setrightflatwork.com to the main address.
+[[redirects]]
+  from = "https://www.setrightflatwork.com/*"
+  to = "https://setrightflatwork.com/:splat"
+  status = 301
+  force = true
