@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.setrightflatwork.com" }], "destination": "https://setrightflatwork.com/:path*", "permanent": true }
+  ]
+}
